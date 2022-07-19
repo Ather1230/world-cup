@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 /* ---------main body style end-------- */
 
@@ -88,10 +89,6 @@ section{
     font-size: 18px;
     font-weight: 600;
 }
-.r-container-tools{
-    justify-content: center;
-    align-items: center;
-}
 .up-come-btn,.all-grp-btn{
     background-color: #FFFFFF;
     width: 210px;
@@ -122,8 +119,36 @@ section{
     display: flex;
 }
 .r-container-tool{
-    width: 50%;
-    
+    width: 50%; 
 }
 
 /* --------------different item section style end------------ */
+
+/* ------------footer style start ------------- */
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #161616;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    margin-top: 20px;
+}
+.footer-text h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer-menu a{
+    color:#B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+/* ------------footer style end ------------- */
