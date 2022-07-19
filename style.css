@@ -1,0 +1,94 @@
+/* ---------main body style start-------- */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------main body style end-------- */
+
+/* -----------header section style start---------- */
+.header-section{
+    width: 1260px;
+    background: #161616;
+    border-radius: 30px;
+    margin: auto;
+}
+.about-cup{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-equal{
+    width: 50%;
+}
+.header-tile{
+    padding: 5px 7px;
+    margin-left: 50px;
+}
+button{
+    background-color: #DD0000;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+button a{
+    color:  #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.header-banner{
+    margin-top: 5px;
+}
+.header-equal h2{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 700;
+}
+.header-equal p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-equal img{
+    width: 95%;
+}
+/* -----------header section style end---------- */
+
+/* --------------different item section style start------------ */
+section{
+    width: 1260px;
+    margin: auto;
+}
+.container{
+    display: flex;
+}
+.left-container{
+    background-color: #161616;
+    width: 20%;
+    text-align: center;
+}
+.right-container{
+    background-color: green;
+    width: 80%;
+}
+.up-come-btn,.all-grp-btn{
+    background-color: #FFFFFF;
+    width: 210px;
+    border-radius: 10px;
+}
+.up-come-btn a,.all-grp-btn a{
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;   
+}
+.blog-btn{
+    width: 210px;
+    border-radius: 10px;
+}
+.blog-btn a{
+    color: #FFFFFF;
+}
+
+/* --------------different item section style end------------ */
