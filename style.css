@@ -67,11 +67,30 @@ section{
 .left-container{
     background-color: #161616;
     width: 20%;
+    height: 200px;
     text-align: center;
 }
 .right-container{
-    background-color: green;
     width: 80%;
+}
+.r-container-contents{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:24px;
+}
+.r-container-content{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(241, 225, 225);
+    border-radius: 10px;
+    padding: 5px;
+}
+.r-container-content p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.r-container-tools{
+    justify-content: center;
+    align-items: center;
 }
 .up-come-btn,.all-grp-btn{
     background-color: #FFFFFF;
@@ -89,6 +108,22 @@ section{
 }
 .blog-btn a{
     color: #FFFFFF;
+}
+.transfer-btn{
+    background-color: #FFFFFF;
+    padding: 3px 5px;
+}
+.transfer-btn a{
+    color: #161616;
+    font-size: 16px;
+    font-weight: 500;
+}
+.r-container-tools{
+    display: flex;
+}
+.r-container-tool{
+    width: 50%;
+    
 }
 
 /* --------------different item section style end------------ */
