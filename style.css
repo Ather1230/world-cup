@@ -87,17 +87,25 @@ section{
     gap:24px;
 }
 .r-container-content,.r-container-content1{
+    width: 300px;
+    min-height: 180px;
     background-color: #FFFFFF;
     border: 1px solid rgb(241, 225, 225);
     border-radius: 10px;
     padding: 5px;
+}
+.r-container-content img{
+    width: 100%;
 }
 .r-container-content p{
     font-size: 18px;
     font-weight: 600;
 }
 .r-container-content1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 .r-container-content1 h5{
     color: #161616;
