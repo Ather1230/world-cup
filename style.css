@@ -6,6 +6,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+body{
+    width: auto;
+}
 /* ---------main body style end-------- */
 
 /* -----------header section style start---------- */
@@ -13,20 +16,16 @@
     width: 1260px;
     background: #161616;
     border-radius: 30px;
-    /* margin: auto; */
-    margin-top: 43px;
+    margin: auto;
+    /* margin-top: 43px; */
 }
-.about-cup{
-    display: flex;
-    justify-content: space-around;
+.about-cup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
-.header-equal{
-    width: 50%;
-}
 .header-title{
-    padding: 5px 7px;
-    margin-left: 50px;
+    padding: 0 30px;
 }
 button{
     background-color: #DD0000;
@@ -43,9 +42,9 @@ button a{
 .header-banner{
     margin-top: 5px;
 }
-.header-equal h2{
+.header-equal h2 {
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 64px;
     font-weight: 700;
 }
 .header-equal p{
@@ -54,18 +53,26 @@ button a{
     font-weight: 400;
 }
 .header-equal img{
-    width: 95%;
+    width: 100%;
+    transition: .5s;
+    cursor: pointer;    
 }
+.header-equal img:hover {
+    transform: scale(1.03);
+}
+
 /* -----------header section style end---------- */
 
 /* --------------different item section style start------------ */
-section{
+section.main-section{
     width: 1260px;
     margin: auto;
 }
-.container{
+.container {
     display: flex;
     margin-top: 35px;
+    justify-content: center;
+    align-items: stretch;
 }
 .left-container{
     background-color: #161616;
@@ -87,15 +94,17 @@ section{
     gap:24px;
 }
 .r-container-content,.r-container-content1{
-    width: 300px;
+  
     min-height: 180px;
     background-color: #FFFFFF;
     border: 1px solid rgb(241, 225, 225);
     border-radius: 10px;
-    padding: 5px;
 }
 .r-container-content img{
     width: 100%;
+}
+.blog-title{
+    padding: 5px 7px;
 }
 .r-container-content p{
     font-size: 18px;
@@ -138,7 +147,7 @@ section{
 }
 .transfer-btn{
     background-color: #FFFFFF;
-    padding: 3px 7px;
+    padding: 3px 9px;
 }
 .transfer-btn a{
     color: #161616;
@@ -196,16 +205,62 @@ footer{
     margin-top: 10px;
     color:#FFFFFF;
 }
-/* ------------footer style end ------------- */
 
+           /* resposive design */
 
-/* ---------------Responsive design start-------------------------- */
-------------------------------------------------------------------------
-/* ---------#Mobile Device#----------- */
-
-@media only screen and (max-width:688px) {
-    .header-section{
-        width:
+@media screen and (max-width: 678px){
+    *{
+        box-sizing: border-box;
+        
+    }
+    .header-section {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .about-cup {
+        grid-template-columns: 1fr;
+    }
+    .header-title {
+        padding: 5px 7px;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header-equal h2 {
+        font-size: 36px;
+    }
+    .header-banner {
+        width: 100%;
+        text-align: center;
+    }
+    .header-equal img {
+        width: auto;
+    }
+    section.main-section{
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-container {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    .r-container-contents {
+        grid-template-columns: auto;
+        gap: 15px;
+    }
+    .right-container {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .r-container-content, .r-container-content1 {
+       margin: 15px;
     }
 }
-/* ---------------Responsive design start-------------------------- */
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) { 
+    
+}
