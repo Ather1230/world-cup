@@ -33,9 +33,6 @@ button{
     padding: 6px;
     margin-top: 5px;
     border-radius: 5px;
-    box-shadow: inset 0 0 0 0 #f9e506;
-    transition: ease-out 0.3s;
-    outline: none;
 }
 button a{
     color:  #FFFFFF;
@@ -119,7 +116,7 @@ section{
     font-size: 16px;
     font-weight: 400;
 }
-.up-come-btn,.all-grp-btn{
+.up-come-btn,.all-grp-btn,.blog-btn1{
     background-color: #FFFFFF;
     width: 210px;
     border-radius: 10px;
@@ -127,28 +124,16 @@ section{
 .up-come-btn a{
     color: #161616;
 }
-.all-grp-btn,.blog-btn1{
-    background-color: #FFFFFF;
-    width: 210px;
-    border-radius: 10px;
-}
 .all-grp-btn a,.blog-btn1 a{
     color: #161616;
     font-size: 20px;
     font-weight: 500;   
 }
-.blog-btn{
+.blog-btn,.up-come-btn1{
     width: 210px;
     border-radius: 10px;
 }
-.up-come-btn1{
-    width: 210px;
-    border-radius: 10px;
-}
-.blog-btn a{
-    color: #FFFFFF;
-}
-.up-come-btn1 a{
+.blog-btn a,.up-come-btn1 a{
     color: #FFFFFF;
 }
 .transfer-btn{
@@ -213,3 +198,15 @@ footer{
     color:#FFFFFF;
 }
 /* ------------footer style end ------------- */
+
+
+/* ---------------Responsive design start-------------------------- */
+------------------------------------------------------------------------
+/* ---------#Mobile Device#----------- */
+
+@media only screen and (max-width:688px) {
+    .header-section{
+        width:
+    }
+}
+/* ---------------Responsive design start-------------------------- */
