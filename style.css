@@ -208,10 +208,11 @@ footer{
 
            /* resposive design */
 
+           /* mobile device */
+
 @media screen and (max-width: 678px){
     *{
         box-sizing: border-box;
-        
     }
     .header-section {
         margin-top: 0px;
@@ -247,13 +248,13 @@ footer{
         width: 100%;
         background-color: #FFFFFF;
     }
-    .r-container-contents {
-        grid-template-columns: auto;
-        gap: 15px;
-    }
     .right-container {
         width: 100%;
         margin-left: 0px;
+    }
+    .r-container-contents {
+        grid-template-columns: auto;
+        gap: 15px;
     }
     .r-container-content, .r-container-content1 {
        margin: 15px;
