@@ -35,7 +35,7 @@ button{
     border-radius: 5px;
 }
 button a{
-    color:  #FFFFFF;
+    color:#FFFFFF;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -147,7 +147,6 @@ section{
 }
 .r-container-tools{
     display: flex;
-
 }
 .r-container-tool{
     width: 50%; 
