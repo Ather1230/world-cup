@@ -212,6 +212,8 @@ footer{
     color:#FFFFFF;
 }
 
+/* ------------footer style end ------------- */
+
            /* resposive design */
 
            /* mobile device */
@@ -281,7 +283,7 @@ footer{
         flex-direction: column;
     }
  }
-
+                    /* tablet device */
 
 @media screen and (min-device-width: 679px) and (max-device-width: 992px) { 
     *{
